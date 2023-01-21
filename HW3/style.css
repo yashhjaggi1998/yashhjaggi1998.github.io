@@ -28,12 +28,7 @@
 	font-weight: 600;
 }
 
-.links a:active 
-{
-  color: black;
-}
-
-.links a.currentPage 
+.currentPage 
 {
   color: black;
 }
