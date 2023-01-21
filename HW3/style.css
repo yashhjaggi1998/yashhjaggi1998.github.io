@@ -33,6 +33,11 @@
   color: black;
 }
 
+.links a.currentPage 
+{
+  color: black;
+}
+
 .textBody
 {
 	text-align: center; 
