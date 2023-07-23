@@ -79,3 +79,19 @@ body
     background-color: rgb(157, 34, 53);
     color: rgb(255, 199, 44);
 }
+
+.overview, .achievements, .responsibilities
+{
+    font-size: 18px;
+    color:rgb(255, 199, 44);
+    border-bottom: solid 1px;
+}
+
+#VIEW_RESUME{
+    text-decoration: none;;
+    background-color: rgb(157, 34, 53);
+    color: rgb(255, 199, 44);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+}
