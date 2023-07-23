@@ -32,8 +32,8 @@ body
 }
 
 .ACTIVE_LINK{
-    background-color: #007bff !important;
-    color: white !important;
+    background-color: rgb(255, 199, 44) !important;
+    color: rgb(157, 34, 53) !important;
 }
 
 .social_media{
@@ -56,10 +56,26 @@ body
     border-bottom: black 1px solid !important;
 }
 
+.workExCard{
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1.5px dashed rgb(255, 199, 44);
+    border-radius: 20px;
+}
+
+.workExCardHeader{
+    border-bottom: 0px dashed rgb(157, 34, 53) !important;
+}
+
+.workExCardBody{
+    border-top: 2px dashed rgb(157, 34, 53) !important;
+}
+
 .skill{
     padding: 8px 8px 8px 8px;
+    margin-top: 10px !important;
     margin-right: 10px;
     border-radius: 5px;
-    background-color: #007bff;
-    color: white;
+    background-color: rgb(157, 34, 53);
+    color: rgb(255, 199, 44);
 }

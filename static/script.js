@@ -3,36 +3,10 @@ function showWorkEx()
 {
     removeActiveLink();
     document.getElementById("WORK_EX").classList.add("ACTIVE_LINK");
-    document.getElementById("content_area").innerHTML = setWorkEx();
+    //document.getElementById("content_area").innerHTML = fillWorkEx();
+    document.getElementById("content_area").innerHTML = "Under Construction.... Good things take time:)";
 }
 
-function setWorkEx()
-{
-    let Str =  `<div class="card">
-                    <div class="card-header" onmouseover="collapseShow('CAPSICO_HEALTH_DESCR')" onmouseout="collapseHide('CAPSICO_HEALTH_DESCR')">
-                        <h4>CapsicoHealth | AI Workbench</h4>
-                    </div>
-                    <div class="card-body" id="CAPSICO_HEALTH_DESCR" style="display: none;">
-                        <h5>Skills</h5>
-                        <span class="skill">JavaScript</span>
-                        <span class="skill">Java</span>
-                        <span class="skill">Python</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" onmouseover="collapseShow('PERSISTENT_SYSTEMS_DESCR')" onmouseout="collapseHide('PERSISTENT_SYSTEMS_DESCR')">
-                        <h4>Persistent Systems | Checkmarx SAST</h4>
-                    </div>
-                    <div class="card-body" id="PERSISTENT_SYSTEMS_DESCR" style="display: none;">
-                        <h5>Skills</h5>
-                        <span class="skill">JavaScript</span>
-                        <span class="skill">Java</span>
-                        <span class="skill">Python</span>
-                    </div>
-                </div>`;
-    
-                return Str;
-}
 
 function showProjects()
 {
@@ -47,10 +21,81 @@ function showResume()
     removeActiveLink();
     document.getElementById("RESUME").classList.add("ACTIVE_LINK");
 
-    document.getElementById("content_area").innerHTML = setResume();
+    document.getElementById("content_area").innerHTML = fillResume();
 }
 
-function setResume()
+function showEdHistory()
+{    
+    removeActiveLink();
+    document.getElementById("ED_HISTORY").classList.add("ACTIVE_LINK");
+    document.getElementById("content_area").innerHTML = fillEdHistory();
+}
+
+
+//------------------ HTML Filler Functions ------------------//
+function fillWorkEx()
+{
+    let Str =  `<div class="card workExCard" onmouseover="collapseShow('CAPSICO_HEALTH_DESCR')" onmouseout="collapseHide('CAPSICO_HEALTH_DESCR')">
+                    <div class="card-header workExCardHeader">
+                        <p style="font-size: 22px;"><b>CapsicoHealth | AI Workbench</b></p>
+                        <p style="font-size: 20px;"><b>Software Engineering Intern </b> | Palo Alto, CA</p>
+                        <p style="font-size: 18px;">May 2023 - August 2023</p>
+                    </div>
+                    <div class="card-body workExCardBody" id="CAPSICO_HEALTH_DESCR" style="display: none;">
+                        <h5>Skills</h5>
+                        <label class="skill">JavaScript</label>
+                        <label class="skill">Java</label>
+                        <label class="skill">Python</label>
+                        <label class="skill">Gooogle Cloud Platform (GCP)</label>
+                        <label class="skill">Git</label>
+                        <label class="skill">PostgreSQL</label>
+                        <label class="skill">Windows</label>
+                        <label class="skill">Linux</label>
+                        <label class="skill">HTML</label>
+                        <label class="skill">CSS</label>
+                        <label class="skill">JSON</label>
+                    </div>
+                </div>
+                <div class="card workExCard" onmouseover="collapseShow('CNI_DESCR')" onmouseout="collapseHide('CNI_DESCR')">
+                    <div class="card-header workExCardHeader">
+                        <p style="font-size: 22px;"><b>Core Center for Nano Imaging Center - CNI (<span style="color:rgb(157, 34, 53)">U</span><span style="color:rgb(255, 199, 44)">S</span><span style="color:rgb(157, 34, 53)">C</span>)</b></p>
+                        <p style="font-size: 20px;"><b>Full Stack Developer</b> | Los Angeles, CA</p>
+                        <p style="font-size: 18px;">January 2022 - Present</p>
+                    </div>
+                    <div class="card-body workExCardBody" id="CNI_DESCR" style="display: none;">
+                        <h5>Skills</h5>
+                        <label class="skill">React</label>
+                        <label class="skill">Node.js</label>
+                        <label class="skill">SQL</label>
+                        <label class="skill">Prisma Client</label>
+                        <label class="skill">Typescript</label>
+                        <label class="skill">JavaScript</label>
+                        <label class="skill">PHP</label>
+                        <label class="skill">Microsoft Azure</label>
+                        <label class="skill">Git</label>
+                        <label class="skill">Bootstrap</label>
+                        <label class="skill">HTML</label>
+                        <label class="skill">CSS</label>
+                    </div>
+                </div>
+                <div class="card workExCard" onmouseover="collapseShow('PERSISTENT_SYSTEMS_DESCR')" onmouseout="collapseHide('PERSISTENT_SYSTEMS_DESCR')">
+                    <div class="card-header workExCardHeader">
+                        <p style="font-size: 22px;"><b>Persistent Systems | Checkmarx SAST</b></p>
+                        <p style="font-size: 20px;"><b>Software Engineer - 2 </b> | Pune, India</p>
+                        <p style="font-size: 18px;">October 2020 - July 2022</p>
+                    </div>
+                    <div class="card-body workExCardBody" id="PERSISTENT_SYSTEMS_DESCR" style="display: none;">
+                        <h5>Skills</h5>
+                        <label class="skill">JavaScript</label>
+                        <label class="skill">Java</label>
+                        <label class="skill">Python</label>
+                    </div>
+                </div>`;
+    
+                return Str;
+}
+
+function fillResume()
 {
     let Str =  `<div class="card" style="width: 45rem; ">
                     <img class="card-img-top" src="static/pdf/Resume_Image.png" height="80%" alt="Yashh Jaggi Resume Image">
@@ -61,14 +106,7 @@ function setResume()
     return Str;
 }
 
-function showEdHistory()
-{    
-    removeActiveLink();
-    document.getElementById("ED_HISTORY").classList.add("ACTIVE_LINK");
-    document.getElementById("content_area").innerHTML = setEdHistory();
-}
-
-function setEdHistory()
+function fillEdHistory()
 {
     let Str =  `<div class="card" onmouseover="collapseEdShow('USC_HEAD', 'USC_DESCR')" onmouseout="collapseEdHide('USC_HEAD', 'USC_DESCR')">
                     <div class="card-header" id="USC_HEAD" style="background-color: rgb(255, 199, 44)!important; color: rgb(157, 34, 53)">
@@ -113,6 +151,7 @@ function setEdHistory()
     return Str;
 }
 
+//------------------ Helper Functions ------------------//
 function removeActiveLink()
 {
     let allListElements = document.querySelectorAll("*");
