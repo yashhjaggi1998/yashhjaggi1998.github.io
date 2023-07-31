@@ -36,11 +36,14 @@ function showEdHistory()
 //------------------ HTML Filler Functions ------------------//
 function fillWorkEx()
 {
-    let Str =  `<div class="card workExCard" onmouseover="collapseShow('CAPSICO_HEALTH_DESCR')" onmouseout="collapseHide('CAPSICO_HEALTH_DESCR')">
+    let Str =  `<div class="card workExCard shadow p-3 mb-5 bg-white rounded" onmouseover="collapseShow('CAPSICO_HEALTH_DESCR')" onmouseout="collapseHide('CAPSICO_HEALTH_DESCR')">
                     <div class="card-header workExCardHeader">
-                        <p style="font-size: 22px;"><b>CapsicoHealth | AI Workbench</b></p>
-                        <p style="font-size: 20px;"><b>Software Engineering Intern </b> | Palo Alto, CA</p>
-                        <p style="font-size: 18px;">May 2023 - August 2023</p>
+                        <div>
+                            <img src="static/img/capsico-logo.png" alt="Capsico Health Logo" style="width: 100px; height: 50px; border-radius: 50%;">
+                            <span style="font-size: 22px;"><b>CapsicoHealth | AI Workbench</b></span>
+                        </div>
+                        <p style="font-size: 20px; margin-left: 105px"><b>Software Engineering Intern </b> | Palo Alto, CA</p>
+                        <p style="font-size: 18px; margin-left: 105px">May 2023 - August 2023</p>
                     </div>
                     <div class="card-body workExCardBody" id="CAPSICO_HEALTH_DESCR" style="display: none;">
                         <div>    
@@ -86,11 +89,14 @@ function fillWorkEx()
 
                     </div>
                 </div>
-                <div class="card workExCard" onmouseover="collapseShow('CNI_DESCR')" onmouseout="collapseHide('CNI_DESCR')">
+                <div class="card workExCard shadow p-3 mb-5 bg-white rounded" onmouseover="collapseShow('CNI_DESCR')" onmouseout="collapseHide('CNI_DESCR')">
                     <div class="card-header workExCardHeader">
-                        <p style="font-size: 22px;"><b>Core Center for Nano Imaging Center - CNI (<span style="color:rgb(157, 34, 53)">U</span><span style="color:rgb(255, 199, 44)">S</span><span style="color:rgb(157, 34, 53)">C</span>)</b></p>
-                        <p style="font-size: 20px;"><b>Full Stack Developer</b> | Los Angeles, CA</p>
-                        <p style="font-size: 18px;">January 2022 - Present</p>
+                        <div>
+                            <img src="static/img/USC-logo.png" alt="USC Logo" style="width: 100px; height: 50px; border-radius: 50%;">
+                            <span style="font-size: 22px;"><b>Core Center for Nano Imaging Center - CNI (<span style="color:rgb(157, 34, 53)">U</span><span style="color:rgb(255, 199, 44)">S</span><span style="color:rgb(157, 34, 53)">C</span>)</b></span>
+                        </div>
+                        <p style="font-size: 20px; margin-left: 105px"><b>Full Stack Developer</b> | Los Angeles, CA</p>
+                        <p style="font-size: 18px; margin-left: 105px;">January 2022 - Present</p>
                     </div>
                     <div class="card-body workExCardBody" id="CNI_DESCR" style="display: none;">
                         <div>
@@ -135,11 +141,14 @@ function fillWorkEx()
                         </div><br>  
                     </div>
                 </div>
-                <div class="card workExCard" onmouseover="collapseShow('PERSISTENT_SYSTEMS_DESCR')" onmouseout="collapseHide('PERSISTENT_SYSTEMS_DESCR')">
+                <div class="card workExCard shadow p-3 mb-5 bg-white rounded" onmouseover="collapseShow('PERSISTENT_SYSTEMS_DESCR')" onmouseout="collapseHide('PERSISTENT_SYSTEMS_DESCR')">
                     <div class="card-header workExCardHeader">
-                        <p style="font-size: 22px;"><b>Persistent Systems | Checkmarx SAST</b></p>
-                        <p style="font-size: 20px;"><b>Software Engineer - 2 </b> | Pune, India</p>
-                        <p style="font-size: 18px;">October 2020 - July 2022</p>
+                        <div>
+                            <img src="static/img/Persistent-logo.png" alt="Persistent Logo" style="width: 100px; height: 50px; border-radius: 50%;">
+                            <span style="font-size: 22px;"><b>Persistent Systems | Checkmarx SAST</b></span>
+                        </div>
+                        <p style="font-size: 20px; margin-left: 105px"><b>Software Engineer - 2 </b> | Pune, India</p>
+                        <p style="font-size: 18px; margin-left: 105px">October 2020 - July 2022</p>
                     </div>
                     <div class="card-body workExCardBody" id="PERSISTENT_SYSTEMS_DESCR" style="display: none;">
                         <div>
@@ -181,6 +190,52 @@ function fillWorkEx()
                             <ul>
                                 <li>Transitions to AWS hosting helped reduce infrastructure costs by 20%.</li>
                                 <li>Migration of backend services from Java-servlets run on Virtual machines to REST APIs hosted on AWS improved the overall throughput by 45%.</li>
+                        </ul> 
+                        </div><br>  
+                    </div>
+                </div>
+                
+                <div class="card workExCard shadow p-3 mb-5 bg-white rounded" onmouseover="collapseShow('UBS_DESCR')" onmouseout="collapseHide('UBS_DESCR')">
+                    <div class="card-header workExCardHeader">
+                        <div>
+                            <img src="static/img/UBS-logo.jpeg" alt="UBS Logo" style="width: 100px; height: 50px; border-radius: 50%;">
+                            <span style="font-size: 22px;"><b>Union Bank of Switzerland (UBS)</b></span>
+                        </div>
+                        <p style="font-size: 20px; margin-left: 105px"><b>Software Developer Intern</b> | Pune, India</p>
+                        <p style="font-size: 18px; margin-left: 105px">May 2019 - August 2019</p>
+                    </div>
+                    <div class="card-body workExCardBody" id="UBS_DESCR" style="display: none;">
+                        <div>
+                        <h5>Skills</h5>
+                        <label class="skill">Python</label>
+                        <label class="skill">Flask</label>
+                        <label class="skill">Scikit-learn</label>
+                        <label class="skill">Numpy</label>
+                        <label class="skill">Pandas</label>
+                        <label class="skill">Git</label>
+                        <label class="skill">MS Azure</label>
+                        </div><br>
+
+                        <div>
+                           <p class="overview"><b>Overview</b></p>
+                           <p> At UBS, I was worked to built a k-means model to efficiently cluster unresolved chatbot queries and leveraged
+                                the clustered data to train the chatbot to improve performance with respect to resolving greater number of user queries.
+                                Moreover, I developed REST APIs that analysed client data collected from the chatbot conversations 
+                                and provided valuable business insights.</p>
+                        </div>
+
+                        <div>
+                            <p class="responsibilities"><b>Key Responsibilities</b></p>
+                            <ol>
+                                <li><b style="color: rgb(157, 34, 53);">Software Development:</b> Developed REST APIs using Flask framework. Tested the endpoints and deployed them on MS Azure Cloud service.</li>
+                                <li><b style="color: rgb(157, 34, 53);">Machine Learning Engineering:</b> Built and trained k-means clustering model using scikit-learn, numpy and pandas libraries in python.</li>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <p class="achievements"><b>Achievements</b></p>
+                            <ul>
+                                <li>My work helped improve the accuracy of the chatbot by 20%.</li>
                         </ul> 
                         </div><br>  
                     </div>
@@ -304,3 +359,4 @@ function collapseEdHide(src_id, target_id)
 }
 
 showWorkEx();
+//showProjects();
