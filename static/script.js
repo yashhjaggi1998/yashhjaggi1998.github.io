@@ -13,8 +13,8 @@ function showProjects()
     removeActiveLink();
     document.getElementById("PROJECTS").classList.add("ACTIVE_LINK");
 
-    //document.getElementById("content_area").innerHTML = fillProjects();
-    document.getElementById("content_area").innerHTML = "Under Construction.... Good things take time:)";
+    document.getElementById("content_area").innerHTML = fillProjects();
+    //document.getElementById("content_area").innerHTML = "Under Construction.... Good things take time:)";
 }
 
 function showResume()
@@ -191,7 +191,31 @@ function fillWorkEx()
 
 function fillProjects()
 {
-    let Str = "";
+    let Str = ` <table class="table">
+                    <tr>
+                        <td>
+                            <video width="500" height="320" autoplay muted controls>
+                                <source src="static/videos/EventSearch_WebApp.mp4" type="video/mp4">
+                            </video>
+                            <p>Web Application</p>
+                        </td>
+                        <td>
+                            <video width="500" height="320" muted controls>
+                                <source src="static/videos/EventSearch_Android.mp4" type="video/mp4">
+                            </video>
+                            <p>Android Application</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <video width="500" height="320" muted controls>
+                                <source src="static/videos/Game_Dev.mp4" type="video/mp4">
+                            </video>
+                            <p>2D Platformer Game</p>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>`;
     return Str;
 }
 
