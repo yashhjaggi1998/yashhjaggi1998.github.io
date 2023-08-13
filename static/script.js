@@ -252,13 +252,13 @@ function fillProjects()
                             <video width="500" height="320" autoplay muted controls>
                                 <source src="static/videos/EventSearch_WebApp.mp4" type="video/mp4">
                             </video>
-                            <p>Web Application</p>
+                            <p>Event Search - Web Application</p>
                         </td>
                         <td>
                             <video width="500" height="320" muted controls>
                                 <source src="static/videos/EventSearch_Android.mp4" type="video/mp4">
                             </video>
-                            <p>Android Application</p>
+                            <p>Event Search - Android Application</p>
                         </td>
                     </tr>
                     <tr>
@@ -266,7 +266,7 @@ function fillProjects()
                             <video width="500" height="320" muted controls>
                                 <source src="static/videos/Game_Dev.mp4" type="video/mp4">
                             </video>
-                            <p>2D Platformer Game</p>
+                            <p>Souldiers - 2D Platformer Game</p>
                         </td>
                         <td></td>
                     </tr>
@@ -358,5 +358,5 @@ function collapseEdHide(src_id, target_id)
     document.getElementById(target_id).style.display = "none";
 }
 
-showWorkEx();
-//showProjects();
+//showWorkEx();
+showProjects();
