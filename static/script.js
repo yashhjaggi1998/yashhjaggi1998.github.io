@@ -7,6 +7,14 @@ function showWorkEx()
     //document.getElementById("content_area").innerHTML = "Under Construction.... Good things take time:)";
 }
 
+function showMyLLMJourney()
+{
+    removeActiveLink();
+    document.getElementById("MY_LLM_JOURNEY").classList.add("ACTIVE_LINK");
+
+    document.getElementById("content_area").innerHTML = "Under Construction.... Good things take time:)";
+    //document.getElementById("content_area").innerHTML = fillMyLLMJourney();
+}
 
 function showProjects()
 {
