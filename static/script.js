@@ -86,26 +86,46 @@ function fillWorkEx()
 
                 <div>
                     <p class="overview"><b>Overview</b></p>
-                    <p> At CNI, I am working on migrating existing website from PHP to Node.js and React. 
-                        Additionally, I work to add new features on a daily basis to improve performance and usability of the web application.
+                    <p> At CNI, I worked on the official CNI workbench (webapp + desktop) that served scientific equipment to USC and external researcher community.
                     </p>
                 </div>
 
                 <div>
                     <p class="responsibilities"><b>Key Responsibilities</b></p>
                     <ol>
-                        <li><b style="color: rgb(157, 34, 53);">Software Development:</b> Implemented the website GUI using React, resulting in a more user-friendly and responsive web interface.
-                            Migrate and re-write 100% of backend services from PHP to Node.js.</li>
-                        <li><b style="color: rgb(157, 34, 53);">Server Maintenance:</b> Led Migration of server from local mail server of PHP to MS Azure. 
-                            Also handled  Migration of databases and media files to MS Azure.</li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Backend API Migration:</b>
+                            Led the migration of the official CNI website from PHP to node.js using typescript.
+                        </li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Frontend Development:</b>
+                            Closely worked with the UI/UX team to understand the user requirements and developed the frontend using React.
+                        </li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Single Sign-On Integration:</b>
+                            Collaborated with the MS Azure team to integrate the official CNI website with the USC SSO to enable secure access to the website and avoid any bad actors.
+                        </li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Revamped Instrument Booking Logic:</b>
+                            Engineered and revamped the instrument booking logic to reduce instrument overbooking & enable the users to book the instruments in a more efficient manner.
+                        </li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Database Migration:</b>
+                            Migrated the database from MySQL to PostgreSQL using Prisma client.
+                        </li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Cloud Deployment & Maintenance:</b>
+                            Led Migration of server from local mail server of PHP to MS Azure. 
+                        </li>
                     </ol>
                 </div>
 
                 <div>
                     <p class="achievements"><b>Achievements</b></p>
                     <ul>
-                        <li>Transition of website enabled a better user experience.</li>
-                        <li>Migration of server reduced maintenance costs by 70%.</li>
+                        <li>Successfully served <b>15000+ researchers.</b></li>
+                        <li>By migrating the backend API, helped <b>reduce the API latency by 30%.</b></li>
+                        <li>Helped <b>reduced</b> the number of instrument <b>overbooked hours by 50%.</b></li>
                 </ul> 
                 </div><br>  
             </div>
@@ -177,7 +197,8 @@ function fillWorkEx()
                 <div>
                     <p class="achievements"><b>Achievements</b></p>
                     <ul>
-                        <li>In the initial rollout phase, the tool has served 4000+ users and helped the bank improve the product adoption rate by 25%.</li>
+                        <li>In the initial rollout phase, the tool has <b>served 4000+ users.</b></li>
+                        <li>Tool helped the bank <b>improve</b> the <b>product adoption rate by 25%.</b></li>
                     </ul> 
                 </div><br>
             </div>
