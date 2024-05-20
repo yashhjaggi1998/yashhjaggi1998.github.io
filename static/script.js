@@ -123,7 +123,7 @@ function fillWorkEx()
                 <div>
                     <p class="achievements"><b>Achievements</b></p>
                     <ul>
-                        <li>Successfully served <b>15000+ researchers.</b></li>
+                        <li>Successfully served <b>15,000+ researchers.</b></li>
                         <li>By migrating the backend API, helped <b>reduce the API latency by 30%.</b></li>
                         <li>Helped <b>reduced</b> the number of instrument <b>overbooked hours by 50%.</b></li>
                 </ul> 
@@ -197,12 +197,14 @@ function fillWorkEx()
                 <div>
                     <p class="achievements"><b>Achievements</b></p>
                     <ul>
-                        <li>In the initial rollout phase, the tool has <b>served 4000+ users.</b></li>
+                        <li>In the initial rollout phase, the tool has <b>served 4,000+ users.</b></li>
                         <li>Tool helped the bank <b>improve</b> the <b>product adoption rate by 25%.</b></li>
                     </ul> 
                 </div><br>
             </div>
         </div>
+
+
 
 
         <div class="workExCard card shadow bg-white rounded-2 cursor-pointer m-5" onmouseover="collapseShow('CAPSICO_HEALTH_DESCR')" onmouseout="collapseHide('CAPSICO_HEALTH_DESCR')">
@@ -284,6 +286,7 @@ function fillWorkEx()
         
 
 
+
         <div class="workExCard card shadow bg-white rounded-2 cursor-pointer m-5" onmouseover="collapseShow('PERSISTENT_SYSTEMS_DESCR')" onmouseout="collapseHide('PERSISTENT_SYSTEMS_DESCR')">
 
             <div class="card-header workExCardHeader p-4">
@@ -313,43 +316,53 @@ function fillWorkEx()
                 
                 <div>
                     <h5>Skills</h5>
+                    <label class="skill">Node.js</label>
+                    <label class="skill">Typescript</label>
                     <label class="skill">Java</label>
                     <label class="skill">JavaScript</label>
-                    <label class="skill">JQuery</label>
-                    <label class="skill">Node.js</label>
                     <label class="skill">AWS</label>
                     <label class="skill">Git</label>
-                    <label class="skill">Typescript</label>
+                    <label class="skill">Tailwind CSS</label>
+                    <label class="skill">HTML</label>
                     <label class="skill">Jenkins</label>
+                    <label class="skill">JQuery</label>
                     <label class="skill">SonarCloud</label>
                     <label class="skill">Windows Services</label>
-                    <label class="skill">HTML</label>
-                    <label class="skill">CSS</label>
                     <label class="skill">XML</label>
                     <label class="skill">JSON</label>
                 </div><br>
 
                 <div>
                     <p class="overview"><b>Overview</b></p>
-                    <p> At Persistent Systems, I was engaged in the task of developing Static Security Application Testing (SAST) plugins for a client
-                        on tools like Azure Devops, VSCode, Jenkins and Atlassian Bamboo. I was also responsible to develop REST APIs
-                        to read, update, delete from security scan engine.</p>
+                    <p> At Persistent Systems, I was responsible for developing VSCode, Jenkins, Azure Devops and Atlassian Bamboo plugins for <b>Checkmarx SAST (Static Application Security Testing)</b> tool to allow users to scan their codebase foe vulnerabilities.
+                    </p>
+                    
+                    
                 </div>
 
                 <div>
                     <p class="responsibilities"><b>Key Responsibilities</b></p>
                     <ol>
-                        <li><b style="color: rgb(157, 34, 53);">Software Development:</b> Developed REST APIs using Node.js and Typescript framework. 
-                        Built a middleware for plugins from various tools to communicate with a common backend.
-                        Additionally, deployed these services on AWS to achieve scalability and 24x7 availability of backend services across domains.</li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Backend Development:</b>
+                            Engineered back end RESTful API endpoints in node.js using typescript to upload the codebase to the Checkmarx server for scanning. This led to Checkmarx replacing their existing legacy SOAP API written in JAVA with the new RESTful API.
+                        </li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Frontend Development:</b>
+                            On the frontend side, I closely worked with the UX team to understand the user behavior, created mockups to understand user interation patterns and designed the UI in a way that would be more intuitive for the users. I implementated the frontend using javascript, HTML and bootstrap.
+                        </li>
+                        <li>
+                            <b style="color: rgb(157, 34, 53);">Code Deployment</b>
+                            Closely worked with the DevOps team to deploy the codebase on AWS cloud services to achieve high availability and scalability.
+                        </li>
                     </ol>
                 </div>
 
                 <div>
                     <p class="achievements"><b>Achievements</b></p>
                     <ul>
-                        <li>Transitions to AWS hosting helped reduce infrastructure costs by 20%.</li>
-                        <li>Migration of backend services from Java-servlets run on Virtual machines to REST APIs hosted on AWS improved the overall throughput by 45%.</li>
+                        <li>Served <b>50,000+ users</b> across the globe.</li>
+                        <li>Backend migration helped <b>improve the overall throughput by 45%.</b></li>
                     </ul> 
                 </div><br>  
             </div>
