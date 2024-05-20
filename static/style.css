@@ -46,19 +46,17 @@ body
     color: black;
 }
 
-.card{
-    margin-top: 18px;
-    padding: 10px 10px 10px 10px;
-}
-
 .card-header{
     background-color: white !important;
     border-bottom: black 1px solid !important;
 }
 
+.card-header:hover{
+    cursor: pointer;
+    background-color: rgba(192, 192, 192, 0.503) !important;
+}
+
 .workExCard{
-    padding-left: 25px;
-    padding-right: 25px;
     border: 1.5px dashed rgb(255, 199, 44);
     border-radius: 20px;
 }
