@@ -437,7 +437,140 @@ function fillWorkEx()
 
 function fillProjects()
 {
-    let Str = ` <table class="table">
+    let Str = `
+        <div class="row">
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        
+                        <video width="100%" muted controls>
+                            <source src="static/videos/Dashboard.mov" type="video/mp4">
+                        </video>
+
+                        <h5 class="card-title">Interactive Dashboard &nbsp; <span class="badge text-bg-warning">New</span> </h5>
+                        
+                        <a target="_blank" href="https://github.com/yashhjaggi1998/Interview-Review-Dashboard" style="color:black">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+
+                        <br>
+                        <br>
+
+                        <span><b>Learning Objective</b></span><br>
+                        <ul>
+                            <li>
+                                <a target="_blank" href="https://ui.shadcn.com/" class="text-decoration-none">
+                                    React, Shadcn UI
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://nextjs.org/" class="text-decoration-none">
+                                    NextJs
+                                </a>
+                            </li>
+                        </ul>
+
+                        <a target="_blank" href="https://smart-interview-review-dashboard-mock-ai.vercel.app/" class="btn btn-warning">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4z"/>
+                                    </svg>
+                                    Live Demo
+                                </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <video width="100%">
+                            <source src="static/videos/OpenAPI.mp4" type="video/mp4">
+                        </video>
+                        <h5 class="card-title>"></h5>
+
+                        <h5 class="card-title">Service to Schema - Java &nbsp; <span class="badge text-bg-warning">New</span> </h5>
+
+                        <a target="_blank" href="https://github.com/yashhjaggi1998/EventSourcing-Banking" style="color:black">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+
+                        <br>
+                        <br>
+
+                        <span><b>Learning Objective</b></span><br>
+                        <ul>
+                            <li>
+                                <a target="_blank" href="https://joehonour.medium.com/java-developing-a-spring-service-using-an-openapi-contract-first-approach-37dfd6422a9c" class="text-decoration-none">
+                                    Service-to-schema methodology
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://martinfowler.com/eaaDev/EventSourcing.html" class="text-decoration-none">
+                                    Event sourcing.
+                                </a>
+                            </li>
+                        </ul>
+
+                        <span><b>Description</b><span><br>
+                        <span class="text-secondary">
+                        This application supports a simple bank ledger using the event sourcing pattern to maintain an immutable transaction history. We use a service.yml file to define request, response and model classes for the add funds and remove funds APIs. Each event records details like transaction type, amount, timestamp, and account identifier. 
+                        </span>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <video width="100%" autoplay muted controls>
+                            <source src="static/videos/EventSearch_WebApp.mp4" type="video/mp4">
+                        </video>
+                        <h5 class="card-title">Event Search - Web Application</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            
+            <div class="col-6">
+                <div class="card">
+                    <div class="card">
+                        <div class="card-body">
+                            <video width="100%" height="320" muted controls>
+                                <source src="static/videos/EventSearch_Android.mp4" type="video/mp4">
+                            </video>
+                            <h5 class="card-title">Event Search - Android Application</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-6">
+                <div class="card">
+                    
+                <div class="card-body">
+                <video width="100%" height="320" muted controls>
+                    <source src="static/videos/Game_Dev.mp4" type="video/mp4">
+                </video>
+                <h5 class="card-title>">2D Running Platformer Game</h5>
+            </div>
+                </div>
+            </div>
+        </div>
+    
+    `;
+
+    /*let Str = ` <table class="table">
                     <tr>
                         <td>
                             <video width="500" height="320" autoplay muted controls>
@@ -461,7 +594,7 @@ function fillProjects()
                         </td>
                         <td></td>
                     </tr>
-                </table>`;
+                </table>`;*/
     return Str;
 }
 
