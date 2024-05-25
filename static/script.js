@@ -1,4 +1,3 @@
-
 function showWorkEx()
 {
     removeActiveLink();
@@ -21,7 +20,6 @@ function showProjects()
     document.getElementById("PROJECTS").classList.add("ACTIVE_LINK");
 
     document.getElementById("content_area").innerHTML = fillProjects();
-    //document.getElementById("content_area").innerHTML = "Under Construction.... Good things take time:)";
 }
 
 function showResume()
@@ -444,7 +442,7 @@ function fillProjects()
                 <div class="card">
                     <div class="card-body">
                         
-                        <video width="100%" muted controls>
+                        <video width="100%" height="200px" muted controls>
                             <source src="static/videos/Dashboard.mov" type="video/mp4">
                         </video>
 
@@ -473,12 +471,23 @@ function fillProjects()
                             </li>
                         </ul>
 
+                        <span>
+                            <b>Desription</b>
+                        </span>
+                        <br>
+                        <span class="text-muted">
+                            I've developed an intuitive interview performance dashboard, structured into logical steps for thorough analysis. Using TypeScript, I crafted custom components that seamlessly integrate with the Shadcn UI library, ensuring a cohesive and user-friendly experience.
+                        </span>
+
+                        <br>
+                        <br>
+
                         <a target="_blank" href="https://smart-interview-review-dashboard-mock-ai.vercel.app/" class="btn btn-warning">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
-                                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4z"/>
-                                    </svg>
-                                    Live Demo
-                                </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+                                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4z"/>
+                            </svg>
+                            Live Demo
+                        </a>
 
                     </div>
                 </div>
@@ -487,10 +496,9 @@ function fillProjects()
             <div class="col-4">
                 <div class="card">
                     <div class="card-body">
-                        <video width="100%">
+                        <video width="100%" height="200px">
                             <source src="static/videos/OpenAPI.mp4" type="video/mp4">
                         </video>
-                        <h5 class="card-title>"></h5>
 
                         <h5 class="card-title">Service to Schema - Java &nbsp; <span class="badge text-bg-warning">New</span> </h5>
 
@@ -507,7 +515,7 @@ function fillProjects()
                         <ul>
                             <li>
                                 <a target="_blank" href="https://joehonour.medium.com/java-developing-a-spring-service-using-an-openapi-contract-first-approach-37dfd6422a9c" class="text-decoration-none">
-                                    Service-to-schema methodology
+                                    Service-To-Schema methodology
                                 </a>
                             </li>
                             <li>
@@ -517,12 +525,13 @@ function fillProjects()
                             </li>
                         </ul>
 
-                        <span><b>Description</b><span><br>
+                        <span>
+                            <b>Description</b>
+                        <span><br>
                         <span class="text-secondary">
-                        This application supports a simple bank ledger using the event sourcing pattern to maintain an immutable transaction history. We use a service.yml file to define request, response and model classes for the add funds and remove funds APIs. Each event records details like transaction type, amount, timestamp, and account identifier. 
+                            This application supports a simple bank ledger using the event sourcing pattern to maintain an immutable transaction history. We use a service.yml file to define request, response and model classes for the add funds and remove funds APIs. Each event records details like transaction type, amount, timestamp, and account identifier. 
                         </span>
 
-                        
                     </div>
                 </div>
             </div>
@@ -530,7 +539,7 @@ function fillProjects()
             <div class="col-4">
                 <div class="card">
                     <div class="card-body">
-                        <video width="100%" autoplay muted controls>
+                        <video width="100%" height="200px" autoplay muted controls>
                             <source src="static/videos/EventSearch_WebApp.mp4" type="video/mp4">
                         </video>
                         <h5 class="card-title">Event Search - Web Application</h5>
@@ -541,6 +550,8 @@ function fillProjects()
         </div>
 
         <div class="row">
+
+        
             
             <div class="col-6">
                 <div class="card">
@@ -569,32 +580,6 @@ function fillProjects()
         </div>
     
     `;
-
-    /*let Str = ` <table class="table">
-                    <tr>
-                        <td>
-                            <video width="500" height="320" autoplay muted controls>
-                                <source src="static/videos/EventSearch_WebApp.mp4" type="video/mp4">
-                            </video>
-                            <p>Event Search - Web Application</p>
-                        </td>
-                        <td>
-                            <video width="500" height="320" muted controls>
-                                <source src="static/videos/EventSearch_Android.mp4" type="video/mp4">
-                            </video>
-                            <p>Event Search - Android Application</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <video width="500" height="320" muted controls>
-                                <source src="static/videos/Game_Dev.mp4" type="video/mp4">
-                            </video>
-                            <p>Souldiers - 2D Platformer Game</p>
-                        </td>
-                        <td></td>
-                    </tr>
-                </table>`;*/
     return Str;
 }
 
