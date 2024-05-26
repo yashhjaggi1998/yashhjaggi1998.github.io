@@ -498,7 +498,7 @@ function fillProjects()
                 <div class="card h-100">
                     <div class="card-body">
                         <video width="100%" height="200px" muted controls>
-                            <source src="" type="video/mp4">
+                            <source src="static/videos/PromptMaster.mp4" type="video/mp4">
                         </video>
 
                         <h5 class="card-title"> Prompt Engineering Master <span class="badge text-bg-warning">New</span> </h5>
@@ -605,7 +605,7 @@ function fillProjects()
 
                         <h5 class="card-title"> Equity Screener <span class="badge text-bg-warning">New</span> </h5>
 
-                        <span>Project code restricted by University.</span>
+                        <span class="text-danger opacity-50">Project code restricted by University.</span>
                             
                         <br>
                         <br>
@@ -631,6 +631,17 @@ function fillProjects()
                             A stock search app using Finnhub API with autocomplete. Users can view price summaries, news, and candlestick charts. It supports buying and selling stocks within a portfolio, with all transactions stored in MongoDB.
                         </span>
 
+                        <br>
+                        <br>
+
+                        <a target="_blank" href="https://stock-search-app-423802.wn.r.appspot.com/" class="btn btn-dark align-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                            </svg>
+                            <span>Live Demo</span>
+                        </a>
+
+
                     </div>
                 </div>
             </div>
@@ -644,7 +655,7 @@ function fillProjects()
 
                         <h5 class="card-title">Event Search - WebApp</h5>
 
-                        <span>Project code restricted by University.</span>
+                        <span class="text-danger opacity-50">Project code restricted by University.</span>
                             
                         <br>
                         <br>
@@ -675,7 +686,7 @@ function fillProjects()
 
                         <h5 class="card-title">Event Search - Android App</h5>
 
-                        <span>Project code restricted by University.</span>
+                        <span class="text-danger opacity-50">Project code restricted by University.</span>
                         
                         <br>
                         <br>
